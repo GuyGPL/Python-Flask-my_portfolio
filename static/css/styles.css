@@ -1,0 +1,71 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rowdies', serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5.5rem;
+}
+
+body {
+  font-family: 'Lato', serif;
+}
+
+footer {
+  text-align: center;
+  text-decoration-color: white;
+  background-color: #1e272c;
+}
+
+
+/*----------------------- Navigator bar -----------------------*/
+
+#mainNav {
+  font-family: 'Rowdies', cursive;
+  position: relative;
+}
+
+#navbarSupportedContent {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+/* ----------------------- Welcome ----------------------- */
+
+.welcome-section {
+ color: white;
+ text-align: center;
+ padding: 300px 0px;
+ background: no-repeat center center;
+ background-attachment: scroll;
+ position: relative;
+ background-size: cover;
+ opacity: :0.5;
+}
+
+.welcome-content{
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: rgba(0,0,0,0.7);
+}
+
+/* ----------------------- Footer ----------------------- */
+
+.footer-content {
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* ----------------------- Media ----------------------- */
+
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .welcome-content {
+    font-size: 1rem;
+    background-size: contain;
+  }
+
+}
